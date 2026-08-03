@@ -219,6 +219,20 @@
   pikpakcli rename /Movies/Cartoons Kids
   ```
 
+## Save
+
+- Restore a shared link (mypikpak.com/s/xxx) to your own drive.
+
+  ```bash
+  pikpakcli save https://mypikpak.com/s/<share_id>
+  ```
+
+- Restore a share that requires a passcode.
+
+  ```bash
+  pikpakcli save https://mypikpak.com/s/<share_id> dd3e
+  ```
+
 ## Shell
 
 - Start the interactive shell.
